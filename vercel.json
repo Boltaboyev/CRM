@@ -1,7 +1,5 @@
 {
     "rewrites": [
-        {"source": "/", "destination": "/index.html"},
-        {"source": "/assets/img/*", "destination": "/assets/img/*"},
-        {"source": "/assets/svg/*", "destination": "/assets/svg/*"}
+        {"source": "/", "destination": "/index.html"}
     ]
 }
