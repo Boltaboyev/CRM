@@ -1,3 +1,7 @@
 {
-    "rewrites": [{"source": "/", "destination": "/index.html"}]
+    "rewrites": [
+        {"source": "/", "destination": "/index.html"},
+        {"source": "/assets/*", "destination": "/img/*"},
+        {"source": "/assets/*", "destination": "/svg/*"}
+    ]
 }
