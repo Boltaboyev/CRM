@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
+
+:root {
+    --bg: #121212;
+    --bg-text: #ffffff14;
+    --bg-circle: #f1b53947;
+    --white: #fff;
+    --text-gradient-start: #edc580;
+    --text-gradient-end: #fdf9f3;
+    --border: #f2d5a5;
+    --btn-gradient: #ddc69a;
+    --second-font: 'Noto Sans', sans-serif
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #edc580;
+}
+
+::selection {
+    background: #00000046;
+    color: #edc580;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+i {
+    cursor: pointer;
+}
+
+
+/* container ------------------ */
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
+/* container end ------------------ */
+
+.page-logo {
+    height: 60px;
+    object-fit: contain;
+}

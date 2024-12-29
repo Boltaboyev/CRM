@@ -1,0 +1,151 @@
+{
+  "users": [
+    {
+      "id": "1735383736224",
+      "role": "teacher",
+      "name": "sanjar",
+      "surname": "boltaboyev",
+      "group": "law",
+      "phone": "+998 97 544 59 37",
+      "avatar": "https://img.pikbest.com/wp/202345/male-avatar-image-in-the-circle_9588978.jpg!sw800",
+      "username": "law",
+      "password": "123",
+      "coins": 0
+    },
+    {
+      "id": "1735383767024",
+      "role": "student",
+      "name": "john",
+      "surname": "smith",
+      "group": "law",
+      "phone": "+998 97 544 59 37",
+      "avatar": "avatar4.png",
+      "username": "john",
+      "password": "123",
+      "monthlyFee": 100,
+      "coins": "1000000"
+    },
+    {
+      "id": "1735384335346",
+      "role": "admin",
+      "name": "admin",
+      "surname": "adminow",
+      "group": "",
+      "phone": "+998 90 136 04 19",
+      "avatar": "avatar4.png",
+      "username": "admin",
+      "password": "123",
+      "coins": 0
+    },
+    {
+      "id": "1735498461600",
+      "role": "student",
+      "name": "bob",
+      "surname": "bekov",
+      "group": "law",
+      "phone": "92228271",
+      "username": "bob",
+      "password": "123",
+      "coins": 7
+    },
+    {
+      "id": "1735502573220",
+      "role": "student",
+      "name": "john",
+      "surname": "smith",
+      "group": "law",
+      "phone": "+998 97 544 59 37",
+      "username": "das",
+      "password": "123",
+      "coins": 0
+    },
+    {
+      "id": "1735502588731",
+      "role": "student",
+      "name": "asd",
+      "surname": "smith",
+      "group": "law",
+      "phone": "+998 97 544 59 37",
+      "username": "fbfd",
+      "password": "123",
+      "coins": 0
+    },
+    {
+      "id": "1735502604546",
+      "role": "student",
+      "name": "john",
+      "surname": "smith",
+      "group": "law",
+      "phone": "+998 97 544 59 37",
+      "username": "fdbd",
+      "password": "123",
+      "coins": 0
+    },
+    {
+      "id": "1735502623784",
+      "role": "teacher",
+      "name": "john",
+      "surname": "asd",
+      "group": "english",
+      "phone": "92228271",
+      "username": "dasada",
+      "password": "123",
+      "coins": 0
+    },
+    {
+      "id": "1735502638147",
+      "role": "student",
+      "name": "asd",
+      "surname": "sdfs",
+      "group": "english",
+      "phone": "+998 97 544 59 37",
+      "username": "asdsd",
+      "password": "12132",
+      "coins": 0
+    },
+    {
+      "id": "1735502655730",
+      "role": "student",
+      "name": "asdasd",
+      "surname": "asd",
+      "group": "russian",
+      "phone": "+998 97 544 59 37",
+      "username": "dfsas\\",
+      "password": "123",
+      "coins": 0
+    },
+    {
+      "id": "1735503647335",
+      "role": "student",
+      "name": "john",
+      "surname": "smith",
+      "group": "russian",
+      "phone": "+998 97 544 59 37",
+      "username": "dfsdfdf",
+      "password": "123",
+      "coins": 0
+    },
+    {
+      "id": "1735503719650",
+      "role": "student",
+      "name": "asdasd",
+      "surname": "smith",
+      "group": "law",
+      "phone": "+998 97 544 59 37",
+      "username": "fbfd2adsas",
+      "password": "asdas",
+      "coins": 0
+    },
+    {
+      "id": "1735503734327",
+      "role": "student",
+      "name": "asd",
+      "surname": "as",
+      "group": "english",
+      "phone": "+998 97 544 59 37",
+      "username": "asd121",
+      "password": "asda",
+      "coins": 0
+    }
+  ]
+}
