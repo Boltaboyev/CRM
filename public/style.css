@@ -1,0 +1,7 @@
+@import url(./style/global.css);
+/* components */
+@import url(./style/landing.css);
+@import url(./style/login.css);
+@import url(./style/admin.css);
+@import url(./style/teacher.css);
+@import url(./style/student.css);
