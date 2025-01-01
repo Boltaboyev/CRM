@@ -19,11 +19,9 @@
       "surname": "smith",
       "group": "law",
       "phone": "+998 97 544 59 37",
-      "avatar": "avatar4.png",
-      "username": "john",
+      "username": "johns",
       "password": "123",
-      "monthlyFee": 100,
-      "coins": "1000000"
+      "coins": 0
     },
     {
       "id": "1735384335346",
