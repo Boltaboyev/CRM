@@ -37,7 +37,7 @@ loginForm.addEventListener("submit", (e) => {
     const username = usernameInput.value
     const password = passwordInput.value
 
-    fetch("https://crm-1pv8.onrender.com/db/users")
+    fetch("http://localhost:4000/users")
         .then((response) => response.json())
         .then((users) => {
             const user = users.find(

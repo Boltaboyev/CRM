@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
         }
     } else {
         // Agar foydalanuvchi login qilgan bo'lsa, ro'lini tekshirib to'g'ri sahifaga yo'naltirish
-        fetch("https://crm-1pv8.onrender.com/db/users/" + userId)
+        fetch("http://localhost:4000/users/" + userId)
             .then((response) => response.json())
             .then((user) => {
                 if (user) {

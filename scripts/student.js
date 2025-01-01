@@ -14,7 +14,7 @@ function fetchStudent() {
         return
     }
 
-    fetch(`https://crm-1pv8.onrender.com/db/users/${studentId}`)
+    fetch(`http://localhost:4000/users/${studentId}`)
         .then((response) => response.json())
         .then((student) => {
             studentInfo.innerHTML = `
@@ -43,7 +43,7 @@ function fetchStudentsGroup() {
     }
 
     // Joriy foydalanuvchi ma'lumotlarini olish
-    fetch(`https://crm-1pv8.onrender.com/db/users/${studentId}`)
+    fetch(`http://localhost:4000/users/${studentId}`)
         .then((response) => response.json())
         .then((currentStudent) => {
             const targetGroup = currentStudent.group // Foydalanuvchining guruhini olish
@@ -54,7 +54,7 @@ function fetchStudentsGroup() {
             }
 
             // Foydalanuvchilarning guruh bo'yicha malumotlarini olish
-            fetch("https://crm-1pv8.onrender.com/db/users")
+            fetch("http://localhost:4000/users")
                 .then((response) => response.json())
                 .then((users) => {
                     // Faol o'quvchilarni olish (admin va teacher'larsiz)
@@ -101,7 +101,7 @@ fetchStudentsGroup()
 
 // Foydalanuvchilarning coins miqdori bo'yicha tartiblash va rankni hisoblash
 function fetchStudents() {
-    fetch("https://crm-1pv8.onrender.com/db/users")
+    fetch("http://localhost:4000/users")
         .then((response) => response.json())
         .then((users) => {
             // Faol o'quvchilarni olish (admin va teacher'larsiz)
