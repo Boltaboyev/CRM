@@ -11,7 +11,7 @@ const formButton = addUserForm.querySelector("button[type='submit']") // Formada
 let editingUserId = null // Tahrirlanayotgan foydalanuvchi ID'si
 
 function fetchUsers() {
-    fetch("http://localhost:4000/users")
+    fetch("https://crm-1pv8.onrender.com/db")
         .then((response) => response.json())
         .then((users) => {
             studentTable.innerHTML = ""
@@ -49,7 +49,7 @@ function fetchUsers() {
 
 // Foydalanuvchi coinsini tahrirlash
 function editCoins(userId) {
-    fetch(`http://localhost:4000/users/${userId}`)
+    fetch(`https://crm-1pv8.onrender.com/db/${userId}`)
         .then((response) => response.json())
         .then((user) => {
             if (user.role === "student") {
@@ -59,7 +59,7 @@ function editCoins(userId) {
                 )
                 if (newCoins !== null) {
                     // Coinsni yangilash
-                    fetch(`http://localhost:4000/users/${userId}`, {
+                    fetch(`https://crm-1pv8.onrender.com/db/${userId}`, {
                         method: "PUT",
                         headers: {
                             "Content-Type": "application/json",
@@ -89,7 +89,7 @@ addUserForm.addEventListener("submit", (e) => {
     const username = document.getElementById("username").value
 
     // Yangi foydalanuvchi qo'shishdan oldin, username ni tekshirish
-    fetch("http://localhost:4000/users")
+    fetch("https://crm-1pv8.onrender.com/db")
         .then((response) => response.json())
         .then((users) => {
             const existingUser = users.find(
@@ -117,7 +117,7 @@ addUserForm.addEventListener("submit", (e) => {
 
                 if (editingUserId) {
                     // Agar tahrir holatida bo‘lsa, yangilash
-                    fetch(`http://localhost:4000/users/${editingUserId}`, {
+                    fetch(`https://crm-1pv8.onrender.com/db/${editingUserId}`, {
                         method: "PUT",
                         headers: {
                             "Content-Type": "application/json",
@@ -135,7 +135,7 @@ addUserForm.addEventListener("submit", (e) => {
                         )
                 } else {
                     // Yangi foydalanuvchini qo‘shish
-                    fetch("http://localhost:4000/users", {
+                    fetch("https://crm-1pv8.onrender.com/db", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
@@ -160,7 +160,7 @@ addUserForm.addEventListener("submit", (e) => {
 function editUser(userId) {
     const userIdStr = userId.toString()
 
-    fetch(`http://localhost:4000/users/${userIdStr}`)
+    fetch(`https://crm-1pv8.onrender.com/db/${userIdStr}`)
         .then((response) => response.json())
         .then((user) => {
             document.getElementById("name").value = user.name
@@ -181,7 +181,7 @@ function deleteUser(userId) {
     const userIdStr = userId.toString()
 
     if (confirm("Are you sure you want to delete this user?")) {
-        fetch(`http://localhost:4000/users/${userIdStr}`, {
+        fetch(`https://crm-1pv8.onrender.com/db/${userIdStr}`, {
             method: "DELETE",
         })
             .then(() => {

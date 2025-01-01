@@ -3,7 +3,7 @@ const studentListTable = document.getElementById("student-list")
 
 // Foydalanuvchilarni olish
 function fetchStudents() {
-    fetch("http://localhost:4000/users?role=student")
+    fetch("https://crm-1pv8.onrender.com/db/users?role=student")
         .then((response) => response.json())
         .then((students) => {
             studentListTable.innerHTML = "" // Ro‘yxatni tozalash
@@ -43,13 +43,13 @@ function addCoins(studentId) {
     }
 
     // O'quvchining ma'lumotlarini olish va coinsni yangilash
-    fetch(`http://localhost:4000/users/${studentId}`)
+    fetch(`https://crm-1pv8.onrender.com/db/users/${studentId}`)
         .then((response) => response.json())
         .then((student) => {
             const newCoins = student.coins + coinsToAdd
 
             // Yangi coins qiymati bilan o'quvchini yangilash
-            fetch(`http://localhost:4000/users/${studentId}`, {
+            fetch(`https://crm-1pv8.onrender.com/db/users/${studentId}`, {
                 method: "PATCH",
                 headers: {
                     "Content-Type": "application/json",
@@ -87,7 +87,7 @@ function fetchTeacherGroupStudents() {
     }
 
     // Teacherning guruhini olish
-    fetch(`http://localhost:4000/users/${teacherId}`)
+    fetch(`https://crm-1pv8.onrender.com/db/users/${teacherId}`)
         .then((response) => response.json())
         .then((teacher) => {
             const teacherGroup = teacher.group // Teacherning guruhini olish
@@ -99,7 +99,7 @@ function fetchTeacherGroupStudents() {
 
             // O'quvchilarning faqat teacherning guruhiga tegishlilarini olish
             fetch(
-                `http://localhost:4000/users?role=student&group=${teacherGroup}`
+                `https://crm-1pv8.onrender.com/db/users?role=student&group=${teacherGroup}`
             )
                 .then((response) => response.json())
                 .then((students) => {
@@ -146,13 +146,13 @@ function addCoins(studentId) {
     }
 
     // O'quvchining ma'lumotlarini olish va coinsni yangilash
-    fetch(`http://localhost:4000/users/${studentId}`)
+    fetch(`https://crm-1pv8.onrender.com/db/users/${studentId}`)
         .then((response) => response.json())
         .then((student) => {
             const newCoins = student.coins + coinsToAdd
 
             // Yangi coins qiymati bilan o'quvchini yangilash
-            fetch(`http://localhost:4000/users/${studentId}`, {
+            fetch(`https://crm-1pv8.onrender.com/db/users/${studentId}`, {
                 method: "PATCH",
                 headers: {
                     "Content-Type": "application/json",
