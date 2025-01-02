@@ -26,27 +26,6 @@
     align-items: center;
 }
 
-.admin-header button {
-    width: auto;
-    border-radius: 5px;
-    border: 2px solid #fff;
-    background: transparent;
-    color: #fff;
-    outline: none;
-    cursor: pointer;
-    transition: .2s;
-    padding: 10px 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.admin-header button:hover {
-    border-color: #f14343;
-    color: #f14343;
-}
-
 .add-edit-user {
     padding: 30px 0;
 }

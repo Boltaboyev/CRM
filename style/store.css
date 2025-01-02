@@ -1,0 +1,246 @@
+:root {
+    --bg: #121212;
+    --bg-text: #ffffff14;
+    --bg-circle: #f1b53947;
+    --white: #fff;
+    --text-gradient-start: #edc580;
+    --text-gradient-end: #fdf9f3;
+    --border: #f2d5a5;
+    --btn-gradient: #ddc69a;
+    --second-font: 'Noto Sans', sans-serif
+}
+
+.store-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+marquee {
+    color: rgb(236, 71, 71);
+}
+
+.my-coins {
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.store {
+    padding: 20px 0;
+}
+
+.store_item_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.store_gift {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.store_gift_img {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.store_gift_img img {
+    height: 140px;
+    width: 140px;
+    object-fit: contain;
+    transition: .5s;
+}
+
+.store_gift:hover .store_gift_img img {
+    transform: scale(1.1);
+}
+
+.store_gift_info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.store_gift_info>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.store_gift_info p {
+    color: #121212;
+    font-weight: 500;
+}
+
+.store_gift_info>div p:first-child {
+    font-size: 14px;
+    opacity: .7;
+}
+
+.store_gift_info p i {
+    color: orange;
+}
+
+
+.store_gift_info button {
+    padding: 10px 20px;
+    background: #30ca30cc;
+    color: #fff;
+    border: 1px solid #fff;
+    width: auto;
+    transition: .2s;
+}
+
+.store_gift_info button:hover {
+    background: #30ca30;
+}
+
+.store_gift_info button:active {
+    transform: scale(.97);
+}
+
+@media (max-width: 1000px) {
+    .store_item_box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 660px) {
+
+    .store_gift_img {
+        padding: 10px;
+    }
+
+    .store_gift_info {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .store_gift_info button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 570px) {
+    .store {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 550px) {
+    .store_gift_img img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 470px) {
+    .store_item_box {
+        gap: 15px;
+    }
+
+    .store_gift {
+        gap: 5px;
+    }
+
+    .store_gift_info {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 380px) {
+    .store_gift_info {
+        padding: 5px;
+    }
+
+    .store_gift_img img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .store_gift_info button {
+        padding: 5px 15px;
+    }
+}
+
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    animation: fade-in 0.5s ease;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.confirmation-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+    border-radius: 8px;
+}
+
+.confirmation-popup button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    background: #28a745;
+    color: white;
+}
+
+.cancel-btn {
+    background: #dc3545;
+    color: white;
+}
