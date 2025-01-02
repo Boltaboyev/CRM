@@ -1,6 +1,18 @@
 {
   "users": [
     {
+      "id": "1735384335346",
+      "role": "admin",
+      "name": "admin",
+      "surname": "adminow",
+      "group": "",
+      "phone": "+998 90 136 04 19",
+      "avatar": "avatar4.png",
+      "username": "admin",
+      "password": "123",
+      "coins": 0
+    },
+    {
       "id": "1735383736224",
       "role": "teacher",
       "name": "sanjar",
@@ -12,25 +24,189 @@
       "coins": 0
     },
     {
-      "id": "1735383767024",
+      "id": "1735834311848",
       "role": "student",
-      "name": "john",
-      "surname": "smith",
+      "name": "Otabek",
+      "surname": "Boltaboyev",
       "group": "law",
       "phone": "+998 97 544 59 37",
-      "username": "johns",
+      "username": "bek",
       "password": "123",
-      "coins": 943400
+      "coins": "0"
     },
     {
-      "id": "1735384335346",
-      "role": "admin",
-      "name": "admin",
-      "surname": "adminow",
-      "group": "",
-      "phone": "+998 90 136 04 19",
-      "avatar": "avatar4.png",
-      "username": "admin",
+      "id": "1735834359542",
+      "role": "student",
+      "name": "Bobur",
+      "surname": "Qurbonboyev",
+      "group": "english",
+      "phone": "+998 93 338 38 83",
+      "username": "bob",
+      "password": "123",
+      "coins": "0"
+    },
+    {
+      "id": "1735834737648",
+      "role": "student",
+      "name": "Jek",
+      "surname": "Abrorboyev",
+      "group": "russian",
+      "phone": "+998 97 544 59 37",
+      "username": "jek",
+      "password": "123",
+      "coins": 0
+    },
+    {
+      "id": "6007999376708",
+      "role": "student",
+      "name": "Jek",
+      "surname": "Ponomarev",
+      "group": "law",
+      "phone": "+998 93 422 13 12",
+      "username": "jek727",
+      "password": "123",
+      "coins": 3075
+    },
+    {
+      "id": "6310773015490",
+      "role": "student",
+      "name": "Maksim",
+      "surname": "Qurbonboyev",
+      "group": "law",
+      "phone": "+998 93 422 13 12",
+      "username": "maksim535",
+      "password": "123",
+      "coins": "41"
+    },
+    {
+      "id": "9302981877964",
+      "role": "student",
+      "name": "Ali",
+      "surname": "Abrorboyev",
+      "group": "law",
+      "phone": "+998 94 341 12 24",
+      "username": "ali773",
+      "password": "123",
+      "coins": "535"
+    },
+    {
+      "id": "4286414803241",
+      "role": "student",
+      "name": "Otabek",
+      "surname": "Petrov",
+      "group": "law",
+      "phone": "+998 97 722 29 48",
+      "username": "otabek994",
+      "password": "123",
+      "coins": "1239"
+    },
+    {
+      "id": "5187440404312",
+      "role": "student",
+      "name": "Bobur",
+      "surname": "Sidorov",
+      "group": "english",
+      "phone": "+998 94 341 12 24",
+      "username": "bobur972",
+      "password": "123",
+      "coins": "208"
+    },
+    {
+      "id": "1221018538555",
+      "role": "student",
+      "name": "Jek",
+      "surname": "Karimov",
+      "group": "english",
+      "phone": "+998 97 722 29 48",
+      "username": "jek421",
+      "password": "123",
+      "coins": "727"
+    },
+    {
+      "id": "3392007679250",
+      "role": "student",
+      "name": "Otabek",
+      "surname": "Sidorov",
+      "group": "english",
+      "phone": "+998 93 422 13 12",
+      "username": "otabek693",
+      "password": "123",
+      "coins": "3299"
+    },
+    {
+      "id": "7547774482038",
+      "role": "student",
+      "name": "Jek",
+      "surname": "Ponomarev",
+      "group": "english",
+      "phone": "+998 90 454 61 92",
+      "username": "jek960",
+      "password": "123",
+      "coins": "1179"
+    },
+    {
+      "id": "2360197325544",
+      "role": "student",
+      "name": "Ali",
+      "surname": "Qurbonboyev",
+      "group": "russian",
+      "phone": "+998 97 544 59 37",
+      "username": "ali924",
+      "password": "123",
+      "coins": "1295"
+    },
+    {
+      "id": "3429403613046",
+      "role": "student",
+      "name": "Ali",
+      "surname": "Ponomarev",
+      "group": "russian",
+      "phone": "+998 93 422 13 12",
+      "username": "ali142",
+      "password": "123",
+      "coins": "3783"
+    },
+    {
+      "id": "9767133191665",
+      "role": "student",
+      "name": "Svetlana",
+      "surname": "Johnson",
+      "group": "russian",
+      "phone": "+998 90 454 61 92",
+      "username": "svetlana664",
+      "password": "123",
+      "coins": "2035"
+    },
+    {
+      "id": "7255315551056",
+      "role": "student",
+      "name": "Sarah",
+      "surname": "Boltaboyev",
+      "group": "russian",
+      "phone": "+998 93 338 38 83",
+      "username": "sarah667",
+      "password": "123",
+      "coins": "713"
+    },
+    {
+      "id": "1735835040456",
+      "role": "teacher",
+      "name": "Chala",
+      "surname": "Rus",
+      "group": "russian",
+      "phone": "+998 97 544 59 37",
+      "username": "rus",
+      "password": "123",
+      "coins": 0
+    },
+    {
+      "id": "1735835073042",
+      "role": "teacher",
+      "name": "Janob",
+      "surname": "English",
+      "group": "english",
+      "phone": "+998 93 338 38 83",
+      "username": "usa",
       "password": "123",
       "coins": 0
     }

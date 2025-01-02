@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const apiUrl = "http://localhost:4000/users"
     const telegramBotToken = "7480230294:AAFfmQoKpvFR56CI66qsbuRrkFQ9vCK5uQU"
-    const telegramChatId = "6139818616" 
+    const telegramChatId = "-4780437225" 
 
     const userId = getUserIdFromLocalStorage()
 
